@@ -19,33 +19,20 @@ public class Menu1{
         switch(option){
             //prints meat options
             case 0:
-                System.out.println("Mudway Restaurant");
-                System.out.println("Menu List");
-                System.out.println(" Select Your Meat ");
-                System.out.println("1. Tuna ");
-                System.out.println("2. Beef");
-                System.out.println("3. Chicken \n"); 
+                System.out.println( "Option 0 not implemented");
+                
                 break;
                 //prints bread options
             case 1:
-                System.out.println("Select Your Bread");
-                System.out.println("4. Whole Grain ");
-                System.out.println("5. Italian");
-                System.out.println("6. Plain White\n");
+                System.out.println("Option 1 not implemented");            
                 break;
                 //prints cheese options
             case 2:
-                System.out.println("Select Your Cheese ");
-                System.out.println("7. American ");
-                System.out.println("8. Feta");
-                System.out.println("9. Cheddar\n");
+                System.out.println("Option 2 not implemented ");             
                 break;
                 //prints drink options
             case 3:
-                System.out.println("Select Your Drink");
-                System.out.println("10. Sprite");
-                System.out.println("11. Pepsi");
-                System.out.println("12. Coke");
+                System.out.println("Option 3 not implemented");
                 break;
             default:
                 System.out.println("There is an error");
@@ -54,7 +41,7 @@ public class Menu1{
         
 
         System.out.println("0. Exit Menu\n");
-        System.out.println("Type The Number");
+        System.out.println("Type The Number of your choice");
         
     }
     //add selected choice to vector and print what was added
@@ -64,19 +51,12 @@ public class Menu1{
         if (option == 0){
             switch (choice){    
                 case 1:     
-                    System.out.println("Tuna Added");
-                    order.addElement("Tuna");
-                    
-                    break;
+                    System.out.println("choice 1 not implemented"); 
                 case 2:     
-                    System.out.println("Beef Added");
-                    order.addElement("Beef");
-                  
+                    System.out.println("choice 2 not implemented");
                     break;
                 case 3:     
-                    System.out.println("Chicken Added");
-                    order.addElement("Chicken");
-                    
+                    System.out.println("choice 3 not implemented");
                     break;
             default:
                     System.out.println("Invalid entry. Please try again");  
@@ -88,39 +68,29 @@ public class Menu1{
         if (option ==1){
             switch (choice){
             case 4:     
-                    System.out.println("Whole grain Added");
-                    order.addElement("Whole Grain");
-                   
+                    System.out.println("choice 4 not implemented"); 
                     break;
             case 5:     
-                    System.out.println("Italian Added");
-                    order.addElement("Italian");
-                    
+                    System.out.println("choice 5 not implemented"); 
                     break;
             case 6:     
-                    System.out.println("Plain White Added");
-                    order.addElement("Plain White");
-                    
+                    System.out.println("choice 1 not implemented"); 
                     break;
             default:
-                    System.out.println("Invalid entry. Please try again");  
-                    option--;   
+                    System.out.println("choice 1 not implemented"); 
             }
         }      
         //Cheese Menu
         if (option ==2){
             switch (choice){
                case 7:     
-                    System.out.println("American Added");
-                    order.addElement("American");
+                    System.out.println("choice 7 not implemented"); 
                     break;
                 case 8:     
-                    System.out.println("Feta Added");
-                    order.addElement("Feta");
+                    System.out.println("choice 8 not implemented"); 
                     break;
                 case 9:     
-                    System.out.println("Cheddar Added");
-                    order.addElement("Cheddar");
+                    System.out.println("choice 9 not implemented"); 
                     break; 
                 default:
                     System.out.println("Invalid entry. Please try again");  
@@ -131,16 +101,13 @@ public class Menu1{
         if (option ==3){
             switch (choice){        
                 case 10:     
-                    System.out.println("Sprite Added");
-                    order.addElement("Sprite");
+                    System.out.println("choice 10 not implemented"); 
                     break;
                 case 11:     
-                    System.out.println("Pepsi Added");
-                    order.addElement("Pepsi");
+                    System.out.println("choice 11 not implemented"); 
                     break;
                 case 12:     
-                    System.out.println("Coke Added");
-                    order.addElement("Coke");
+                    System.out.println("choice 12 not implemented"); 
                     break;
                default:
                     System.out.println("Invalid entry. Please try again");  
