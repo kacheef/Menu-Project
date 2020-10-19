@@ -19,20 +19,20 @@ public class Menu1{
         switch(option){
             //prints meat options
             case 0:
-                System.out.println( "Option 0 not implemented");
+                System.out.println( "Option 0  with meat choices 1-3 not implemented");
                 
                 break;
                 //prints bread options
             case 1:
-                System.out.println("Option 1 not implemented");            
+                System.out.println("Option 1 with bread choices 4-6  not implemented");            
                 break;
                 //prints cheese options
             case 2:
-                System.out.println("Option 2 not implemented ");             
+                System.out.println("Option 2 with cheese choices 7-9 not implemented ");             
                 break;
                 //prints drink options
             case 3:
-                System.out.println("Option 3 not implemented");
+                System.out.println("Option 3 with drink choices 10-12 not implemented");
                 break;
             default:
                 System.out.println("There is an error");
@@ -52,11 +52,15 @@ public class Menu1{
             switch (choice){    
                 case 1:     
                     System.out.println("choice 1 not implemented"); 
+                    order.addElement("choice not implemented");
+                    
                 case 2:     
                     System.out.println("choice 2 not implemented");
+                    order.addElement("choice not implemented");
                     break;
                 case 3:     
                     System.out.println("choice 3 not implemented");
+                    order.addElement("choice not implemented");
                     break;
             default:
                     System.out.println("Invalid entry. Please try again");  
@@ -69,15 +73,18 @@ public class Menu1{
             switch (choice){
             case 4:     
                     System.out.println("choice 4 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
             case 5:     
                     System.out.println("choice 5 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
             case 6:     
-                    System.out.println("choice 1 not implemented"); 
+                    System.out.println("choice 6 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
             default:
-                    System.out.println("choice 1 not implemented"); 
+                    System.out.println("Invalid entry. Please try again"); 
             }
         }      
         //Cheese Menu
@@ -85,12 +92,15 @@ public class Menu1{
             switch (choice){
                case 7:     
                     System.out.println("choice 7 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
                 case 8:     
                     System.out.println("choice 8 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
                 case 9:     
                     System.out.println("choice 9 not implemented"); 
+                    order.addElement("choice not implemented");
                     break; 
                 default:
                     System.out.println("Invalid entry. Please try again");  
@@ -102,12 +112,15 @@ public class Menu1{
             switch (choice){        
                 case 10:     
                     System.out.println("choice 10 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
                 case 11:     
                     System.out.println("choice 11 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
                 case 12:     
                     System.out.println("choice 12 not implemented"); 
+                    order.addElement("choice not implemented");
                     break;
                default:
                     System.out.println("Invalid entry. Please try again");  
@@ -117,7 +130,7 @@ public class Menu1{
             
              // prints all item added to order
              Enumeration e = order.elements(); 
-             while (e.hasMoreElements()) 
+             while (e.hasMoreElements())                  
                 System.out.println(e.nextElement());  
         }
        
@@ -128,7 +141,8 @@ public class Menu1{
                  
             }
             else{
-                System.out.println("\n Your order is: "); 
+                System.out.println("\n printing order not yet implemented"); 
+                
             }
              // prints all item added
             Enumeration e = order.elements(); 
@@ -160,6 +174,7 @@ public class Menu1{
             printMenu(options);
             menu=input.nextInt();
             options=selectItem(menu,orders,options);
+            
             options++;
         }
         
@@ -167,3 +182,4 @@ public class Menu1{
     }
     
 }
+
